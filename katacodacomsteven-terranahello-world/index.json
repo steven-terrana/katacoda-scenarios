@@ -2,6 +2,12 @@
   "title": "Hello World",
   "description": "Testing",
   "details": {
+    "assets": {
+      "host01": [
+        { "file": "docker-compose.yml", "target": "~/" },
+        { "file": "docker", "target": "~/"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
@@ -24,7 +30,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}]
   },
   "backend": {
     "imageid": "swarm"

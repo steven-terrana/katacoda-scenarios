@@ -4,9 +4,12 @@
   "details": {
     "assets": {
       "host01": [
-        { "file": "./docker-compose.yml", "target": "~/" },
         { "file": "docker", "target": "~/"}
       ]
+    },
+    "intro": {
+      "text": "intro.md",
+      "courseData": "init.sh" 
     },
     "steps": [
       {
@@ -22,9 +25,6 @@
         "text": "step3.md"
       }
     ],
-    "intro": {
-      "text": "intro.md"
-    },
     "finish": {
       "text": "finish.md"
     }

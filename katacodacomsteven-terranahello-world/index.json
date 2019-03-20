@@ -2,11 +2,6 @@
   "title": "Hello World",
   "description": "Testing",
   "details": {
-    "assets": {
-      "host01": [
-        { "file": "docker", "target": "~/"}
-      ]
-    },
     "intro": {
       "text": "intro.md",
       "courseData": "init.sh" 

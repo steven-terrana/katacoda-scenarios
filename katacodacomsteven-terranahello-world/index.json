@@ -4,7 +4,7 @@
   "details": {
     "assets": {
       "host01": [
-        { "file": "docker-compose.yml", "target": "~/" },
+        { "file": "./docker-compose.yml", "target": "~/" },
         { "file": "docker", "target": "~/"}
       ]
     },
